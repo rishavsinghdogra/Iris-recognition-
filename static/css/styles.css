@@ -1,0 +1,159 @@
+body{
+    background-color: #618264;
+}
+
+.content{
+    background-color: #79AC78;
+   
+}
+.write{
+    color: #D0E7D2;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgi{
+    height: 100px;
+}
+.container1 {
+    overflow: hidden; /* Clear the float inside the container */
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+
+  }
+  .container2{
+    overflow: hidden; /* Clear the float inside the container */
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    float: right;
+    width: 90%; /* Adjust the width as needed */
+      
+  }
+  .right {
+    
+   float: left; 
+  width: 10%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  
+  }
+  .left1{
+   float: left; 
+   width: 90%; /* three boxes (use 25% for four, and 50% for two, etc) */
+
+  }
+  .right1{
+    float: right;
+    width: 10%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+.anothercont{
+    margin: 5%;
+    margin-top: 7%;
+   
+}
+h1,h2,.container3{
+color: #D0E7D2;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+margin-bottom: 50px;
+}
+
+.container3 {
+    color: #79AC78;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  h4{
+    font-weight: bolder;
+  }
+  #prediction_result {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
